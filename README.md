@@ -161,3 +161,8 @@ Unfortunately, due to the many different packages and number of different models
 - `RuntimeError: Failed to import transformers.training_args because of the following error (look up to see its traceback): No module named 'torch._six'` or `ModuleNotFoundError: No module named 'torch._six'`: One has to delete
     - the line 18 `from torch._six import inf` in `conda_envs/eeg_bench/lib/python3.10/site-packages/deepspeed/runtime/utils.py`
     - the line 9 `from torch._six import inf` in `conda_envs/eeg_bench/lib/python3.10/site-packages/deepspeed/runtime/zero/stage2.py`
+
+### License
+This work is licensed under GNU GPL v3.0 or later. See `LICENSE` for details.
+
+Note that the code in this repository includes the [brainfeatures-toolbox](https://github.com/TNTLFreiburg/brainfeatures) (under `eeg_bench/models/clinical/brainfeatures/`), which is licensed under the GNU GPL v3.0 license.
