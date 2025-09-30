@@ -1,0 +1,5 @@
+from .abstract_bci_task import AbstractBCITask
+from .left_hand_right_hand_feet_tongue_mi_task import LeftHandvRightHandvFeetvTongueMITask
+from .left_hand_right_hand_mi_task import LeftHandvRightHandMITask
+from .right_hand_feet_mi_task import RightHandvFeetMITask
+from .five_fingers_mi_task import FiveFingersMITask

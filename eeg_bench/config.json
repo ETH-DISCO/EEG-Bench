@@ -1,0 +1,22 @@
+{
+    "data": "./data/",
+    "cache": "./cache/",
+    "log": "./logs/",
+    "tmp": "./tmp/",
+    "chkpt": "./checkpoints/",
+    "results": "./results/",
+    "cavanagh2018a": null,
+    "cavanagh2018b": null,
+    "albrecht2019": null,
+    "singh2018": null,
+    "brown2020": null,
+    "gruendler2009": null,
+    "cavanagh2019": null,
+    "singh2020": null,
+    "singh2021": null,
+    "tuab": null,
+    "tuep": null,
+    "tuar": null,
+    "chb_mit": null,
+    "sleep_telemetry": null
+}
